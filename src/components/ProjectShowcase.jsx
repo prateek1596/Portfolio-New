@@ -37,8 +37,11 @@ export default function ProjectShowcase({ project, onOpen }) {
             muted
             loop
             playsInline
+            preload="auto"
+            poster="/video-poster.jpg"
             className="w-full h-[280px] object-cover group-hover:scale-105 transition duration-700"
           />
+
         )}
 
         {/* Hover overlay */}
