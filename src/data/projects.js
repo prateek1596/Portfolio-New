@@ -57,7 +57,7 @@ export const projects = [
       "A desktop application built in JavaFX that allows customers to rent cars, track rentals, and manage customer data using a connected database.",
     tech: ["Java", "JavaFX", "Database"],
     github: "https://github.com/prateek1596/Car-Rental-System-with-JavaFX",
-    video: "/videos/sign_language.mp4",
+    video: "/videos/rental-car.mp4",
     accent: "#f97316"
   },
 ];
