@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #f9fafb;
+  color: #111827;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+}
+.page {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.soft-bg {
+  background: linear-gradient(120deg, #f8fbff, #f4f7ff);
+}
+
+.soft-bg-blue {
+  background: linear-gradient(120deg, #f5faff, #eef3ff);
+}
+
+.soft-bg-purple {
+  background: linear-gradient(120deg, #faf5ff, #f4ecff);
+}
+
+.soft-bg-green {
+  background: linear-gradient(120deg, #f4fffb, #ebfff5);
+}
+
+.soft-bg-warm {
+  background: linear-gradient(120deg, #fffaf5, #fff2e8);
+}
